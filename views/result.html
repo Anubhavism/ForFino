@@ -5,9 +5,7 @@
 	<div ng-repeat="question in data.content">
 		<h1>{{question.id}}.{{question.ques}}</h1>
 			<ul>
-				<li><a href="">{{question.option1}}</a></li>
-				<li><a href="">{{question.option2}}</a></li>
-				<li><a href="">{{question.option3}}</a></li>
+				<li ng-repeat="option in question.options" ng-class="setColor(option,question)">{{option.label}}</li>
 			</ul>
 	</div>
  

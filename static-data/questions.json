@@ -2,46 +2,97 @@
 	{
 		"id": 1,
 		"ques": "Who did Ross marry?",
-		"option1": "Rachel, Emily and Carol.",
-		"option2": "Phoebe, Rachel and Carol.",
-		"option3": "Carol, Emily and Susan ",
+		"options":[{
+						"id": 1,
+						"label": "Rachel, Emily and Carol."
+					},
+					{
+						"id":2,
+						"label": "Phoebe, Rachel and Carol."
+					},
+		 			{
+		 				"id":3,
+		 				"label": "Carol, Emily and Susan "
+		 			}
+		 		],
 		"correct": 1
 
 	},
 	{
 		"id": 2,
 		"ques": "Who bumped Ben's head?",
-		"option1": "Joey",
-		"option2": "Rachel",
-		"option3": "Monica",
+		"options":[{
+						"id": 1,
+						"label": "Joey"
+					},
+					{
+						"id":2,
+						"label": "Rachel"
+					},
+		 			{
+		 				"id":3,
+		 				"label": "Monica"
+		 			}
+		 		],
 		"correct": 3
 
 	},
 	{
 		"id": 3,
 		"ques": "What were the names of Chandler and Monica's adoptive twins?",
-		"option1": "Ben and Emma",
-		"option2": "Jack and Erica",
-		"option3": "Erica and Anne",
+		"options":[{
+						"id": 1,
+						"label": "Ben and Emma"
+					},
+					{
+						"id":2,
+						"label": "Jack and Erica"
+					},
+		 			{
+		 				"id":3,
+		 				"label": "Erica and Anne"
+		 			}
+		 		],
 		"correct": 2
 
 	},
 	{
 		"id": 4,
 		"ques": "Who pierced baby Emma's ears?",
-		"option1": "Ross",
-		"option2": "Monica",
-		"option3": "Amy",
+		"options":[{
+						"id": 1,
+						"label": "Ross"
+					},
+					{
+						"id":2,
+						"label": "Monica"
+					},
+		 			{
+		 				"id":3,
+		 				"label": "Amy"
+		 			}
+		 		],
 		"correct": 3
 
 	},
 	{
 		"id": 5,
 		"ques": "WE WERE ON A BREAK! Who?",
-		"option1": "Ross and Emily",
-		"option2": "Rachel and Joshua",
-		"option3": "Ross and Rachel",
+		"options":[{
+						"id": 1,
+						"label": "Ross and Emily"
+					},
+					{
+						"id":2,
+						"label": "Rachel and Joshua"
+					},
+		 			{
+		 				"id":3,
+		 				"label": "Ross and Rachel"
+		 			}
+		 		],
 		"correct": 3
 
 	}
+
 ]

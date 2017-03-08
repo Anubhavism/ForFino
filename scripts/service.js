@@ -14,7 +14,7 @@ myApp.factory('dataService',function($http,$window){
             obj.ques_index = -1;
         }
         else{
-        	obj.ques_index ++;
+        	obj.ques_index++;
         }
         if(obj.ques_index==-1){
 			for(i=0;i<obj.answers.length;i++){

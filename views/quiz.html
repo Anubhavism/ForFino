@@ -4,9 +4,8 @@
 		<div ng-show="data.ques_index == $index">
 			<h1>{{question.id}}.{{question.ques}}</h1>
 			<ul>
-				<li><a href="" ng-click="setSelected(1)">{{question.option1}}</a></li>
-				<li><a href="" ng-click="setSelected(2)">{{question.option2}}</a></li>
-				<li><a href="" ng-click="setSelected(3)">{{question.option3}}</a></li>
+				<li ng-repeat="option in question.options"><a href="" ng-click="setSelected(option.id)">{{option.label}}</a></li>
+				
 			</ul>
 		</div>
 
