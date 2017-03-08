@@ -1,0 +1,5 @@
+myApp.controller('MainCtrl',function(){
+	
+
+
+});

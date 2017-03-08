@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"ques": "Who did Ross marry?",
+		"option1": "Rachel, Emily and Carol.",
+		"option2": "Phoebe, Rachel and Carol.",
+		"option3": "Carol, Emily and Susan ",
+		"correct": 1
+
+	},
+	{
+		"id": 2,
+		"ques": "Who bumped Ben's head?",
+		"option1": "Joey",
+		"option2": "Rachel",
+		"option3": "Monica",
+		"correct": 3
+
+	},
+	{
+		"id": 3,
+		"ques": "What were the names of Chandler and Monica's adoptive twins?",
+		"option1": "Ben and Emma",
+		"option2": "Jack and Erica",
+		"option3": "Erica and Anne",
+		"correct": 2
+
+	},
+	{
+		"id": 4,
+		"ques": "Who pierced baby Emma's ears?",
+		"option1": "Ross",
+		"option2": "Monica",
+		"option3": "Amy",
+		"correct": 3
+
+	},
+	{
+		"id": 5,
+		"ques": "WE WERE ON A BREAK! Who?",
+		"option1": "Ross and Emily",
+		"option2": "Rachel and Joshua",
+		"option3": "Ross and Rachel",
+		"correct": 3
+
+	}
+]
