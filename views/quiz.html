@@ -1,14 +1,15 @@
 <div ng-controller="QuizCtrl">
 	<h1>You are in Quiz page.</h1>
-	<div ng-repeat="question in content">
-		
-		<h1>{{question.id}}.{{question.ques}}</h1>
-		<ul>
-			<li>{{question.option1}}</li>
-			<li>{{question.option2}}</li>
-			<li>{{question.option3}}</li>
-		</ul>
-
+	<div ng-repeat="question in data.content">
+		<div ng-show="data.ques_index == $index">
+			<h1>{{question.id}}.{{question.ques}}</h1>
+			<ul>
+				<li><a href="" ng-click="setSelected(1)">{{question.option1}}</a></li>
+				<li><a href="" ng-click="setSelected(2)">{{question.option2}}</a></li>
+				<li><a href="" ng-click="setSelected(3)">{{question.option3}}</a></li>
+			</ul>
+		</div>
 
 	</div>
+	
 </div>

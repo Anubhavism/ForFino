@@ -1,6 +1,7 @@
-myApp.controller('QuizCtrl',function($scope,$http){
-	$http.get('static-data/questions.json').then(function(response){
-		$scope.content=response.data;
-	});
+myApp.controller('QuizCtrl',function($scope,dataService){
+	$scope.data=dataService;
+	$scope.setSelected = function (idSelectedVote) {
+			dataService.setTheSelected(idSelectedVote);
+	};
 
 });
