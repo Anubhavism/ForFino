@@ -1,11 +1,12 @@
 'use strict';
 
-var myApp= angular.module('fino',[]);
+var myApp= angular.module('fino',['ngRoute']);
 
 myApp.config(function($routeProvider){
 	$routeProvider
 		.when('/',{
-			templateUrl: 'views/front.html'
+			templateUrl: 'views/front.html',
+			controller: 'MainCtrl'
 		})
 		.when('/quiz',{
 			templateUrl: 'views/quiz.html',

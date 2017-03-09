@@ -1,5 +1,3 @@
-myApp.controller('MainCtrl',function(){
-	
-
-
+myApp.controller('MainCtrl',function(dataService,$scope){
+	$scope.names=dataService.names;
 });

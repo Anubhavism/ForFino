@@ -1,24 +1,62 @@
-*{
-	margin: 0;
-	padding: 0;
+
+.demo-card-wide-1.mdl-card,.demo-card-wide.mdl-card{
+  width: 80%;
+  margin: 3% 10%;
+
+ 
 }
-li{
-	list-style-type: none;
-	margin-left: 5%;
-	margin-top: 10px;
+.demo-card-wide-1 > .mdl-card__title {
+  color: #fff;
+  height: 300px;
+  background: url('../static-data/friends.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 200px;
+  background-color: indigo;
+}
+.demo-card-wide-1 > .mdl-card__menu {
+  color: #fff;
+  
+}
+/*.center-items{
+	justify-content: center;
+	margin-left: 35%;
+}*/
+.mdl-card__supporting-text h1{
+	color: black;
+}
+.mdl-cart__supporting-text{
+	margin-left: 20%;
+	text-align: center;
+}
+.front-page{
+	
+	height: 200px;
+}
+
+.ques-box{
+	width: 60%;
+	margin: 3% 5%;
+	color: black;
+}
+.options-class{
+	border-bottom: 0.5px solid gray;
 	padding: 20px;
-	background-color: gray;
-}
-li a{
-	text-decoration: none;
-	color: white;
+	margin-left: 10%;
+	cursor: pointer;
+	width: 75%;
 }
 .wrong{
-  background-color: red;
+  	border-bottom: 0.5px solid red;
 }
 .correct{
-	background-color: green;
+	border-bottom: 0.5px solid green;
 }
-.selected{
-	background-color: blue;
+.material-icons.green600 { color: green;float: right; }
+.material-icons.red600 { color: red;float: right; }
+
+#donutchart{
+	height: 90%;
+
 }
